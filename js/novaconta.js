@@ -1,7 +1,7 @@
 $('#voltar').bind('click', () => { voltar() })
 
 function voltar() {
-    window.location.replace("./index.html");
+    window.location.replace("../index.html");
 }
 
 $('#botao').bind('click', () => { cadastrar() })
