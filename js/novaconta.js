@@ -1,7 +1,7 @@
 $('#voltar').bind('click', () => { voltar() })
 
 function voltar() {
-    window.location.replace("./inicio.html");
+    window.location.replace("./index.html");
 }
 
 $('#botao').bind('click', () => { cadastrar() })
@@ -21,7 +21,8 @@ function cadastrar() {
     else if (rg.value.length != 9) {
         alert("Verificar RG, o campo deve ter 9 dígitos")
     }
-    else if (email == "" || rg == "" || senha == "" || $("#fcep").val == "" || $("#fnumero").val == "" || $("#frua").val == ""){
+    //verificar campos vazios nao checando no jquery
+    else if (email.value == "" || rg.value == "" || senha.value == "" || $("#fcep").val == "" || $("#fnumero").val == "" || $("#frua").val == ""){
         alert("Não deixar campos em branco")
     }
     else { alert("Cadastro realizado com sucesso") }

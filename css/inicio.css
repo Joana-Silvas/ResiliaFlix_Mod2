@@ -35,34 +35,41 @@ footer{
     padding-top: 150px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
-#selecionar {
-    color: white;
-    display: block;
-    font-family: Roboto, sans-serif;
-    font-size: larger;
+#continuar {
+    padding-top: 4%;
+    width: 60%;
+    transition: 1s;
+    border-radius: 20%;
+}
+
+#continuar:hover{
+    background-color: white;
+    width: 75%;
+}
+
+#criarAcc {
+    padding-top: 20px;
+    color: rgb(114, 114, 114);
+    transition: 0.5s;
+}
+
+#criarAcc:hover{
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
-#select {
-    display: flex;
-    justify-content: center;
-    padding-top: 4%;
+#recSenha {
+    padding-top: 20px;
+    color: rgb(114, 114, 114);
+    transition: 0.5s;
 }
 
-.imgSelect {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 5%;
-    height: 15%;
-    width: 15%;
-    transition: 0.3s;
-    border: 5px solid rgba(255, 255, 255, 0);
-}
-
-.imgSelect:hover{
-    width: 17%;
-    border: 20px solid grey;
+#recSenha:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
