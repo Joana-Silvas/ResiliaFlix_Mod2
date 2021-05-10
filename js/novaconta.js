@@ -1,7 +1,7 @@
 $('#voltar').bind('click', () => { voltar() })
 
 function voltar() {
-    window.location.replace("./login.html");
+    window.location.replace("./inicio.html");
 }
 
 $('#botao').bind('click', () => { cadastrar() })
@@ -21,7 +21,7 @@ function cadastrar() {
     else if (rg.value.length != 9) {
         alert("Verificar RG, o campo deve ter 9 dígitos")
     }
-    else if (email == "" || rg == "" || senha == "" || $("#fcep").val == "" || $("#fnumero").val == ""){
+    else if (email == "" || rg == "" || senha == "" || $("#fcep").val == "" || $("#fnumero").val == "" || $("#frua").val == ""){
         alert("Não deixar campos em branco")
     }
     else { alert("Cadastro realizado com sucesso") }
@@ -31,7 +31,7 @@ $("#fcep").bind("keyup", () => pegaCEP())
 
 function pegaCEP() {
     let CEP = $("#fcep")[0]
-    if (CEP.value.length > 7) {
+    if (CEP.value.length == 8) {
         $.ajax({
             url: ("https://viacep.com.br/ws/" + CEP.value + "/json/"),
             success: function (result) {
