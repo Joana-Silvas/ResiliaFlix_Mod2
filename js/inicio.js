@@ -4,7 +4,6 @@ function continuar() {
     window.location.replace("./html/login.html");
 }
 
-
 $('#criarAcc').bind('click', () => { novaconta() })
 
 function novaconta() {

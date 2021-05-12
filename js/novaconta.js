@@ -12,6 +12,10 @@ function cadastrar() {
     let senha = $("#fsenha")[0]
     let confirm = $("#fconfirm")[0]
 
+    let CEP = $("#fcep")[0]
+    let numero = $("#fnumero")[0]
+    let rua = $("#frua")[0]
+
     if (email.value.indexOf("@") < 1) {
         alert("Email inválido")
     }
@@ -21,8 +25,7 @@ function cadastrar() {
     else if (rg.value.length != 9) {
         alert("Verificar RG, o campo deve ter 9 dígitos")
     }
-    //verificar campos vazios nao checando no jquery
-    else if (email.value == "" || rg.value == "" || senha.value == "" || $("#fcep").val == "" || $("#fnumero").val == "" || $("#frua").val == ""){
+    else if (email.value == "" || rg.value == "" || senha.value == "" || CEP.value == "" || numero.value == "" || rua.value == ""){
         alert("Não deixar campos em branco")
     }
     else { alert("Cadastro realizado com sucesso") }
@@ -32,6 +35,7 @@ $("#fcep").bind("keyup", () => pegaCEP())
 
 function pegaCEP() {
     let CEP = $("#fcep")[0]
+    
     if (CEP.value.length == 8) {
         $.ajax({
             url: ("https://viacep.com.br/ws/" + CEP.value + "/json/"),
