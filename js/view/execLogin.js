@@ -11,7 +11,7 @@ function entrar() {
         alert("Favor digite sua senha")
     }
     else{
-        window.location.replace("./catalogo.html")
+        volta()
     }
 }
 
