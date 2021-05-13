@@ -1,0 +1,13 @@
+//utiliza o id da API e o id do filme html para buscar os respectivos posteres
+pegaFilmes("tt12361974", 1)
+pegaFilmes("tt0245429", 2)
+pegaFilmes("tt2096673", 3)
+pegaFilmes("tt0119698", 4)
+pegaFilmes("tt0076759", 5)
+pegaFilmes("tt0133093", 6)
+pegaFilmes("tt0370263", 7)
+pegaFilmes("tt2582802", 8)
+pegaFilmes("tt5994364", 9)
+pegaFilmes("tt0047396", 10)
+pegaFilmes("tt0055614", 11)
+pegaFilmes("tt0109830", 12)

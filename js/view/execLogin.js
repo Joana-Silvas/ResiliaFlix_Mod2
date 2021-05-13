@@ -1,9 +1,3 @@
-$(".imgSelect").bind('click', () => { login() })
-
-function login() {
-    $("#login").css("display", "flex")
-}
-
 $('#botao').bind('click', () => { entrar() })
 
 function entrar() {
@@ -21,8 +15,3 @@ function entrar() {
     }
 }
 
-$('#esqueci').bind('click', () => { recupSenha() })
-
-function recupSenha(){
-    window.location.replace("./recupAcc.html")
-}

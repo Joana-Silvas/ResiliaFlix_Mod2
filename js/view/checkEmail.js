@@ -1,9 +1,3 @@
-$('#voltar').bind('click', () => { voltar() })
-
-function voltar() {
-    window.location.replace("../index.html");
-}
-
 $('#botao').bind('click', () => { recuperar() })
 
 function recuperar() {

@@ -1,9 +1,3 @@
-$('#voltar').bind('click', () => { voltar() })
-
-function voltar() {
-    window.location.replace("../index.html");
-}
-
 $('#botao').bind('click', () => { cadastrar() })
 
 function cadastrar() {
@@ -29,27 +23,4 @@ function cadastrar() {
         alert("Não deixar campos em branco")
     }
     else { alert("Cadastro realizado com sucesso") }
-}
-
-$("#fcep").bind("keyup", () => pegaCEP())
-
-function pegaCEP() {
-    let CEP = $("#fcep")[0]
-    
-    if (CEP.value.length == 8) {
-        $.ajax({
-            url: ("https://viacep.com.br/ws/" + CEP.value + "/json/"),
-            success: function (result) {
-                console.log(result)
-                preencheCEP(result)
-            }
-        });
-    }
-}
-
-function preencheCEP(apidocarai) {
-    $("#festado").val(apidocarai.uf)
-    $("#fcidade").val(apidocarai.localidade)
-    $("#fbairro").val(apidocarai.bairro)
-    $("#frua").val(apidocarai.logradouro)
 }
