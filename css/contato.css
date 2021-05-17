@@ -49,3 +49,15 @@ a{color: black;}
 
 h5 {font-weight: bold;
 font-size: large;}
+
+img{object-fit: cover;
+object-position: 0% 0%;}
+
+.fonte-email{
+    font-size: 13.4px;
+}
+
+.foto{
+    width: 294px;
+    height: 294px;
+}
