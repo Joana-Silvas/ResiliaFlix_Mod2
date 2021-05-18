@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&display=swap');
 /* font-family: 'Arimo', sans-serif; */
 
+/* lupa de pesquisa [em progresso] */
+#searcBtn {
+    width: 80px;
+}
+
+.search-img {
+    height: 20px;
+}
 
 header {
     background-color: black;
