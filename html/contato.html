@@ -1,129 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <!-- bootstrap link -->
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/contato.css">
-    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
-    <title>ResiliaFlix - assistir a séries online, assistir a filmes online.</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/contato.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>ResiliaFlix - assistir a séries online, assistir a filmes online.</title>
 </head>
+
 <body>
-    <header class="cabeçalho">
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" ><img class="resilia_logo fixed-top" id="#voltar" src="../images/logo_png.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle menuResilia" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               🌐Português
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Inglês</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Pesquisar"> -->
+            <button class="btn btn-outline-success" id="searcBtn" type="submit"><img class="search-img"src="../images/lupa.png"></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-        <!-- esse é o código do header a partir do form é o campo de pesquisa da esquerda-->
-        <nav class="navbar navbar">
-            <div class="container-fluid" >
-              <a class="navbar-brand" id="voltar"><img class="resiliaflix_logo" src="../images/logo_png.png"></a>
-              <!-- campo da esquerda com o campo de pesquisa-->
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <button class="btn  btn-primary "type="button">Pesquisar</button>
-              </form>
-            </div>
-          </nav>  
-    </header>
-
-<main>
+  <main>
     <section class="row justify-content-center fundoContato">
 
       <div class="card h-100 m-3 bg-gradient">
-        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2" alt="Foto de perfil Daniel Fujita">
+        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2"
+          alt="Foto de perfil Daniel Fujita">
         <div class="card-body flex-grow-0">
           <h5 class="card-title">Daniel Fujita</h5>
-          <p class="card-text mb-1">Desenvolvedor Back-end</p>
+          <p class="card-text mb-1">Desenvolvedor Fullstack</p>
           <p class="card-text">Email: daniel.fujita@gmail.com</p>
         </div>
         <div class="card-body ps-3 pt-0 mb-0">
-          <a href="https://github.com/DanielOsw22" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
+          <a href="https://github.com/DanielOsw22" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
           </a>
-          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
+          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
           </a>
         </div>
       </div>
 
       <div class="card h-100 m-3 bg-gradient">
-        <img src="../images/Pedro Barbosa.jpg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2" alt="Foto de perfil Daniel Fujita">
+        <img src="../images/Pedro Barbosa.jpg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2"
+          alt="Foto de perfil Pedro Barbosa">
         <div class="card-body flex-grow-0">
           <h5 class="card-title">Pedro Barbosa</h5>
           <p class="card-text mb-1">Desenvolvedor Front End</p>
           <p class="card-text fonte-email">Email: pedrobarbosa.developer@gmail.com</p>
         </div>
         <div class="card-body ps-3 pt-0 mb-0" height="144px">
-          <a href="https://github.com/1PedroBarbosa" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
+          <a href="https://github.com/1PedroBarbosa" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
           </a>
-          <a href="https://www.linkedin.com/in/pedro-ronald-barbosa/" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
+          <a href="https://www.linkedin.com/in/pedro-ronald-barbosa/" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
           </a>
         </div>
       </div>
 
       <div class="card h-100 m-3 bg-gradient">
-        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2" alt="Foto de perfil Daniel Fujita">
+        <img src="../images/Debora Oliveira.jpg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2"
+          alt="Foto de perfil Debora Oliveira">
+        <div class="card-body flex-grow-0">
+          <h5 class="card-title">Debora Oliveira</h5>
+          <p class="card-text mb-1">Desenvolvedora Fullstack</p>
+          <p class="card-text fonte-email">Email: deboraholiveira1996@gmail.com</p>
+        </div>
+        <div class="card-body ps-3 pt-0 mb-0">
+          <a href="https://github.com/Deborah0liveira" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
+          </a>
+        </div>
+      </div>
+
+      <div class="card h-100 m-3 bg-gradient">
+        <img src="../images/Joana Silva.jpg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2"
+          alt="Foto de perfil Joana Silva">
+        <div class="card-body flex-grow-0">
+          <h5 class="card-title">Joana Silva</h5>
+          <p class="card-text mb-1">Desenvolvedora Front-End</p>
+          <p class="card-text">Email: josilva1603@gmail.com</p>
+        </div>
+        <div class="card-body ps-3 pt-0 mb-0">
+          <a href="https://github.com/Joana-Silvas" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
+          </a>
+          <a href="https://www.linkedin.com/in/joana-silva-374868212" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
+          </a>
+        </div>
+      </div>
+
+      <div class="card h-100 m-3 bg-gradient">
+        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2"
+          alt="Foto de perfil Daniel Fujita">
         <div class="card-body flex-grow-0">
           <h5 class="card-title">Daniel Fujita</h5>
           <p class="card-text mb-1">Desenvolvedor Back-end</p>
           <p class="card-text">Email: daniel.fujita@gmail.com</p>
         </div>
         <div class="card-body ps-3 pt-0 mb-0">
-          <a href="https://github.com/DanielOsw22" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
+          <a href="https://github.com/DanielOsw22" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
           </a>
-          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
-          </a>
-        </div>
-      </div>
-
-      <div class="card h-100 m-3 bg-gradient">
-        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2" alt="Foto de perfil Daniel Fujita">
-        <div class="card-body flex-grow-0">
-          <h5 class="card-title">Daniel Fujita</h5>
-          <p class="card-text mb-1">Desenvolvedor Back-end</p>
-          <p class="card-text">Email: daniel.fujita@gmail.com</p>
-        </div>
-        <div class="card-body ps-3 pt-0 mb-0">
-          <a href="https://github.com/DanielOsw22" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
-          </a>
-          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
+          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link">
+            <img class="bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
           </a>
         </div>
       </div>
 
-      <div class="card h-100 m-3 bg-gradient">
-        <img src="../images/danielfujita.jpeg" class="foto img-fluid card-img-top img-thumbnail rounded mt-2" alt="Foto de perfil Daniel Fujita">
-        <div class="card-body flex-grow-0">
-          <h5 class="card-title">Daniel Fujita</h5>
-          <p class="card-text mb-1">Desenvolvedor Back-end</p>
-          <p class="card-text">Email: daniel.fujita@gmail.com</p>
-        </div>
-        <div class="card-body ps-3 pt-0 mb-0">
-          <a href="https://github.com/DanielOsw22" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/github.svg" width="30rem" height="30rem">
-          </a>
-          <a href="https://www.linkedin.com/in/daniel-fujita-88921a1a/" class="card-link" >
-            <img class = "bg-light rounded-circle" src="../images/linkedin.svg" width="30rem" height="30rem">
-          </a>
-        </div>
-      </div>
-    
     </section>
-</main>
+  </main>
 
-<footer class="p-5">
-        <p class="m-0">&#169; ResiliaFlix - Brasil 2021.</p>
-        <!-- essa clase m-0, zera a margem do bootstrap -->
-</footer>
-        <!-- poooper e js link -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>         
+  <footer class="p-5">
+    <p class="m-0">&#169; ResiliaFlix - Brasil 2021.</p>
+    <!-- essa clase m-0, zera a margem do bootstrap -->
+  </footer>
+  <!-- poooper e js link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
+    crossorigin="anonymous"></script>
 </body>
