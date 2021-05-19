@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&display=swap');
 /* font-family: 'Arimo', sans-serif; */
 
-#searcBtn {
-    width: 80px;
-}
-
-.search-img {
-    height: 20px;
-}
-
-header {
-    background-color: black;
-    height: 70px;
-}
 
 main{
     height: 500px;
@@ -23,88 +11,4 @@ main{
 .mae{
     height: 100%;
     padding-bottom: 60px;
-}
-
-/* logo lateral */
-.resilia_logo{
-    margin-top: 15px;
-    margin-left:20px;
-    width: 180px;
-    transition: 0.5s;
-}
-
-.resilia_logo:hover{
-    width: 190px;
-}
-
-#navbarSupportedContent {
-    border-color: white;
-}
-
-#navbarDropdown {
-    margin-top: -35px;
-    border-color: white;
-}
-/* //botão responsivo// */
-.navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: red;
-    border: 2px solid transparent;
-    border-radius: .25rem;
-    transition: box-shadow .15s ease-in-out;
-    border-color: white;
-}
-
-.menuResilia{
-    margin-top: 15px;
-    color: white;
-    border-radius: 4px;
-    background-color: black;
-    border-color: white;
-}
-
-.dropdown {
-    margin-top: 18px;
-    margin-right: 25px;
-    border-color: white;
-} 
-/* botão pesquisar */
-.btn-outline-success {
-    color: white;
-    border-color: red;
-    background-color: red;
-}
-
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: red;
-    border-color: red;
-}
-
-.nav-link:focus, .nav-link:hover {
-    color:white;
-}
-
-
-.btn-primary {
-    font-family: 'Arimo', sans-serif;
-    background-color: red;
-    border-color: red;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-
-.btn-primary:hover {
-    background-color: red;
-    border-color: red;
-}
-
-
-footer {
-    font-family:'Arimo', sans-serif;
-    color:cornsilk;
-    background-color: black;
-    text-align: center;
 }

@@ -1,3 +1,5 @@
+$('#searcBtn').bind('click', () => { start() })
+
 function start() {
 
     $("#form").submit(function (event) {

@@ -1,17 +1,12 @@
-$('#botao').bind('click', () => { entrar() })
+$('#enviar').bind('click', () => { login() })
 
-function entrar() {
-    let email = $("#femail")[0]
-    let senha = $("#fsenha")[0]
+function login() {
+    let email = $("#email")[0]
 
-    if (email.value.indexOf("@") < 1) {
-        alert("Email inválido")
+    if (email.value.indexOf("@") < 0) {
+        alert("Favor digitar um email válido ou clicar em: Precisa de ajuda?")
     }
-    else if (senha.value == ""){
-        alert("Favor digite sua senha")
-    }
-    else{
-        volta()
+    else {
+        window.location.replace("../index.html");
     }
 }
-

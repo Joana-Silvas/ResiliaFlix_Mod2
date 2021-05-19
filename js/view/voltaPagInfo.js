@@ -5,5 +5,5 @@ $('.filme').bind('click', (e) => { info(e.target.getAttribute("value")) })
 function info(value) {
     //UNICO JEITO facil que encontrei de armazenar o valor do filme clicado, foi no window.name
     window.name = value
-    window.location.replace("./info.html");
+    window.location.replace("../info.html");
 }
