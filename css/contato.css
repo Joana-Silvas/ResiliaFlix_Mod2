@@ -3,7 +3,7 @@
 
 
 .fundoContato {
-    background-color: rgba(27, 27, 27, 0.705);
+    background: linear-gradient(0deg, rgba(224,231,231,1) 0%, rgba(198,205,205,1) 8%, rgba(170,176,176,1) 19%, rgba(135,140,140,1) 28%, rgba(89,93,93,1) 49%, rgba(53,56,56,1) 73%, rgba(0,0,0,1) 100%);
 }
 
 .card {
