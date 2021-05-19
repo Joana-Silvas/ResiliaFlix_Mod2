@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Página de Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="resilia_logo fixed-top" id="#voltar"
+                        src="../images/resiliaflix_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menuResilia" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Português
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Inglês</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Pesquisar"> -->
+                        <button class="btn btn-outline-success" id="searcBtn" type="submit"><img class="search-img"
+                                src="../images/lupa.png"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="cadastro d-block"
+            class="d-flex flex-column bd-highlight mb-3 d-flex justify-content-center d-flex align-items-center">
+            <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center">
+                <h1 class="text-light">Cadastro</h1>
+            </div>
+        </div>
+        <div class="mae_input d-flex flex-row justify-content-center">
+            <div class="input">
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Digite seu nome completo"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input
+                        type="email" placeholder="Digite seu email" id="femail"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Digite seu RG" id="frg"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input
+                        type="password" placeholder="Cadastre sua senha" id="fsenha"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input
+                        type="password" placeholder="Confirme sua senha" id="fconfirm"></div>
+            </div>
+            <div class="input">
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Digite seu CEP" id="fcep"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Digite o nome da rua" id="frua"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Digite o número" id="fnumero"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Bairro" id="fbairro"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Cidade" id="fcidade"></div>
+                <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><input type="text"
+                        placeholder="Estado" id="festado"></div>
+            </div>
+        </div>
+        <div class="botao_input d-block">
+            <div class="p-2 bd-highlight d-flex justify-content-center d-flex align-items-center"><button
+            id="botao">Enviar</button>
+        </div>
+    </main>
+    <footer class="p-5 fixed-bottom">
+        <p class="m-0">&#169; ResiliaFlix - Brasil 2021.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/controller/execApiCEP.js"></script>
+    <script src="../js/view/execCEP.js"></script>
+    <script src="../js/view/checkNovaConta.js"></script>
+</body>
+
+</html>
