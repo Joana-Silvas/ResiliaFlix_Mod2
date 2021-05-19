@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&display=swap');
 /* font-family: 'Arimo', sans-serif; */
 
+#entrar {
+    margin-top: 10px;
+    margin-right: 25px;
+    width: 80px;
+    color: black;
+    font-family: 'Arimo', sans-serif;
+}
 #searcBtn {
     width: 80px;
+    margin-top: 10px;
 }
 
 .search-img {
@@ -188,6 +196,9 @@ texto2{
     }
     #button-addon2{
         width: 500px;
+    }
+    #searcBtn {
+        display: none;
     }
 }
 
