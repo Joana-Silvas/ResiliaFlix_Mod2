@@ -1,5 +1,5 @@
-$('#esqueci').bind('click', () => { recupSenha() })
+$('#recuperacao').bind('click', () => { recuperar() })
 
-function recupSenha() {
+function recuperar() {
     window.location.replace("../html/RecupSenha.html")
 }
