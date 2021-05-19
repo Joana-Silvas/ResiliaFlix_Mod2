@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&display=swap');
 /* font-family: 'Arimo', sans-serif; */
 
+#contato{
+    margin-bottom: 1%;
+}
+
 #entrar {
     margin-top: 10px;
     margin-right: 25px;
