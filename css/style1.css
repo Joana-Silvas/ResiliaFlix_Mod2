@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+body {
+    background: rgb(80,93,95);
+    background: linear-gradient(112deg, rgba(80,93,95,1) 20%, rgba(21,21,21,1) 100%);
+    
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left:20px;
+    width: 180px;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    width: 190px;
+}
+header {
+    background: black;
+    height: 70px;
+}
+
+.container {
+    background: rgb(80,93,95);
+    background: linear-gradient(112deg, rgba(80,93,95,1) 20%, rgba(21,21,21,1) 100%);
+  
+    width: 80%;
+    height: 80%;
+    /*width: 600px;
+    height: 600px;*/
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 4px 6px 13px -2px rgba(8, 8, 8, 0.6);
+-moz-box-shadow:    4px 6px 13px -2px rgba(8, 8, 8, 0.6);
+box-shadow:         4px 6px 13px -2px rgba(12, 12, 12, 0.6);
+}
+
+.img {
+    width: 35%;
+    height: 35%;
+    border-radius: 5px;
+    align-items: center;
+   /* margin-top: 55px;*/
+    margin-right:  auto;
+    margin-left:  auto;
+    display: block;
+   
+}
+
+footer {
+    font-family:'Arimo', sans-serif;
+    color:cornsilk;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    padding-bottom: 50px;
+}
+
+#result{
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+#result h2 {
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    text-align: justify;
+}
+
+h2{
+    color: white;
+    font-family: 'KoHo', sans-serif;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+   margin: 10px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.nav-link{
+    color: darkgrey;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+.posicao-footer{
+    position: relative;
+    bottom: 0 ;
+}
