@@ -7,7 +7,7 @@ function start() {
 
         let footer = document.querySelector("footer")
 
-        var url = "http://www.omdbapi.com/?apikey=54512563";
+        var url = "https://www.omdbapi.com/?apikey=54512563";
         var movie = $("#texto").val();
 
         $.ajax({
