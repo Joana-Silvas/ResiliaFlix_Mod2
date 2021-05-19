@@ -32,13 +32,38 @@
         </nav>
     </header>
     <main>
-
+        <div id="main">
+            <div id=infos>
+                <img id="poster">
+                <div id="detalhes">
+                    <h1 id="titulo"></h1>
+                    <h3>Ano:</h3>
+                    <h4 id="ano"></h4>
+                    <h3>Duração:</h3>
+                    <h4 id="duracao"></h4>
+                    <h3>Gênero:</h3>
+                    <h4 id="genero"></h4>
+                    <h3>Direção:</h3>
+                    <h4 id="diretor"></h4>
+                    <h3>Resumo:</h3>
+                    <h4 id="resumo"></h4>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="p-5 fixed-bottom">
+    <footer class="p-5 relative-bottom">
         <button class="btn btn-outline-success" id="contato" type="submit">CONTATO</button>
         <p class="m-0">&#169; ResiliaFlix - Brasil 2021.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/view/execInfosFilme.js"></script>
+    <script src="../js/controller/execApiOMDB.js"></script>
+    <script src="../js/model/setIDFilmeInfo.js"></script>
+
+    <script src="../js/view/voltaPagLogin.js"></script>
+    <script src="../js/view/voltaPagContato.js"></script>
+    <script src="../js/view/voltaPagBusca.js"></script>
+    <script src="../js/view/voltaPagInicial.js"></script>
 </body>

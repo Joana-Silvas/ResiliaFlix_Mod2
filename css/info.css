@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&display=swap');
+/* font-family: 'Arimo', sans-serif; */
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+#main {
+    background: linear-gradient(0deg, rgba(224,231,231,1) 0%, rgba(198,205,205,1) 8%, rgba(170,176,176,1) 19%, rgba(135,140,140,1) 28%, rgba(89,93,93,1) 49%, rgba(53,56,56,1) 73%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    text-align: left;
+}
+
+#infos {
+    display: flex;
+    flex-direction: row;
+    padding: 3%
+}
+
+#poster {
+    width:30%;
+    height: 50.268%;
+    margin-right: 2%;
+}
+
+#detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 500px;
+}
+
+#titulo {
+    margin: 0.5%;
+}
+#ano {
+    margin: 0.5%;
+}
+#duracao {
+    margin: 0.5%;
+}
+#genero {
+    margin: 0.5%;
+}
+#diretor {
+    margin: 0.5%;
+}
+#resumo {
+    margin: 0.5%;
+}
