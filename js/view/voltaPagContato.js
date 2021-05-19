@@ -1,5 +1,10 @@
 $('#contato').bind('click', () => { contato() })
 
 function contato() {
-    window.location.replace("../html/contato.html");
+    if (window.location.href.includes("index")){
+        window.location.replace("./html/contato.html");
+    }
+    else{
+        window.location.replace("../html/contato.html");
+    }
 }

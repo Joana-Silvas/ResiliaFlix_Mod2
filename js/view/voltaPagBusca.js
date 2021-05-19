@@ -1,5 +1,10 @@
 $('#searcBtn').bind('click', () => { busca() })
 
 function busca() {
-    window.location.replace("../html/busca.html");
+    if (window.location.href.includes("index")){
+        window.location.replace("./html/busca.html");
+    }
+    else{
+        window.location.replace("../html/busca.html");
+    }
 }

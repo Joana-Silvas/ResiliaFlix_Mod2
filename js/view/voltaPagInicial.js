@@ -1,5 +1,10 @@
 $('#voltar').bind('click', () => { voltar() })
 
 function voltar() {
-    window.location.replace("../html/index.html");
+    if (window.location.href.includes("index")){
+        window.location.replace("./html/index.html");
+    }
+    else{
+        window.location.replace("../html/index.html");
+    }
 }

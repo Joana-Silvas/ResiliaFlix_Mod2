@@ -1,5 +1,10 @@
 $('#button-addon2').bind('click', () => { novaconta() })
 
 function novaconta() {
-    window.location.replace("../html/cadastro.html");
+    if (window.location.href.includes("index")){
+        window.location.replace("./html/cadastro.html");
+    }
+    else{
+        window.location.replace("../html/cadastro.html");
+    }
 }
