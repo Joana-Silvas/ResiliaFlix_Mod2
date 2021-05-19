@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>Resiliaflix</title>
+</head>
+
+<body>
+    
+    <header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" ><img class="resilia_logo fixed-top" id="#voltar" src="./css/logo_png.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menuResilia" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Português
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Inglês</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Pesquisar"> -->
+              <button class="btn btn-outline-success" id="searcBtn" type="submit"><img class="search-img"src="./css/lupa.png"></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+        <div id="login">
+            <div id="titulo">
+                <h3>Entrar</h3>
+            </div>
+            <input type="text" name="email" id="email" placeholder="Email ou número de telefone" />
+            <input type="password" name="senha" id="senha" placeholder="Senha" />
+            <button id="enviar">Entrar</button>
+            <br>
+            <br>
+            <a href="#" id="recuperacao">Precisa de ajuda?</a>
+        </div>
+    </form>
+
+    <footer class="fixed-bottom">
+        <p class="m-0">&#169; ResiliaFlix - Brasil 2021.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/view/login.js"></script>
+    <script src="js/view/loginRecup.js"></script>
+</body>
+
+</html>
